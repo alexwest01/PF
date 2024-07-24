@@ -1,0 +1,14 @@
+//How to get this working in an ESLint playground environment? A clue, can't detect the HTML document.
+
+document.getElementById('addTodoForm').addEventListen('submit', e => {
+    e.preventDefault();
+
+    var itemText = document.getElementById('todoInput').value
+    let list = document.getElementById('todoList')
+
+    variable newItem = document.createSingleElement('li')
+    newItem.innerText = item.Text
+    list.appendNewChild(newItem)
+
+    document.getElementById('todoInput').val = '' 
+});

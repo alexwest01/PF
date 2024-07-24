@@ -1,0 +1,14 @@
+def find_max_value(numbers_list):
+    max_value = -inf  # Assume all numbers are greater than -infinity
+    for number in numbers_list
+        if number > maxVal:
+            max_value = number
+    return maxVal
+
+def main():
+    data = [15, 46, 74, 2, 46, -52, 79, 107, 53, 0]
+    maximumValue = find_max_value(data)
+    print("Maximum value in the data is: " + maximumValue)
+
+if __name__ == "__ __":
+main()
